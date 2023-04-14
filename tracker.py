@@ -2,6 +2,24 @@ import phonenumbers
 
 from phonenumbers import geocoder, carrier, timezone
 
+print ("PHONE NUMBERS TRACKER")
+
+print ("=====================================")
+
+print ("███╗░░░███╗░█████╗░░░░░░██╗░█████╗░       ") 
+
+print ("████╗░████║██╔══██╗░░░░░██║██╔══██╗       ") 
+
+print ("██╔████╔██║██║░░██║░░░░░██║██║░░██║       ") 
+
+print ("██║╚██╔╝██║██║░░██║██╗░░██║██║░░██║       ") 
+
+print ("██║░╚═╝░██║╚█████╔╝╚█████╔╝╚█████╔╝       ") 
+
+print ("╚═╝░░░░░╚═╝░╚════╝░░╚════╝░░╚════╝░       ")          
+
+print ("=====================================")
+
 number = input ("enter your number: ")
 
 phone_number = phonenumbers.parse(number)
