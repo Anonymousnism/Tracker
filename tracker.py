@@ -6,8 +6,8 @@ number = input ("enter your number: ")
 
 phone_numbers = phonenumbers.parse(number)
 
-print(f"Location {geocoder.description_for_number(phone_number, 'en')}")
+print(f"Location: {geocoder.description_for_number(phone_number, 'en')}")
 
-print(f"Carier) {carrier.name_for_number(phone_number, 'en')} ")
+print(f"Carier: {carrier.name_for_number(phone_number, 'en')} ")
 
-print(f"Time Zone {timezone.Time_Zones_for_number(phone_number)}")
+print(f"Time Zone: {timezone.time_zones_for_number(phone_number)}")
