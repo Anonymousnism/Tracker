@@ -1,10 +1,10 @@
-import phonenumber
+import phonenumbers
 
-from phonenumber import geocoder, carrier, timezone
+from phonenumbers import geocoder, carrier, timezone
 
 number = input ("enter your number: ")
 
-phone_number = phonenumber.parse(number)
+phone_number = phonenumbers.parse(number)
 
 print(f"Location: {geocoder.description_for_number(phone_number, 'en')}")
 
