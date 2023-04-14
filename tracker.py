@@ -1,6 +1,6 @@
 import phonenumbers
 
-from phonenumbers import geocoder, carier, timezone
+from phonenumbers import geocoder, carrier, timezone
 
 number = input ("enter your number: ")
 
